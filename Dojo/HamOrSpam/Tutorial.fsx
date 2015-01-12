@@ -25,8 +25,8 @@ open System.IO
 open System.Text
 open System.Text.RegularExpressions
 
-let trainingPath = source + "\SpamTraining"
-let validationPath = source + "\SpamValidation"
+let trainingPath = source + "/SpamTraining"
+let validationPath = source + "/SpamValidation"
 
 // we define 2 classes, Ham or Spam
 type Class = Spam | Ham
